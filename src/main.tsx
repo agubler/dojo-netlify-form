@@ -39,4 +39,4 @@ const App = factory(function App() {
 });
 
 const r = renderer(() => <App />);
-r.mount();
+r.mount({ domNode: document.getElementById("app") });

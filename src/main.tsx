@@ -5,7 +5,7 @@ const factory = create();
 const App = factory(function App() {
   return (
     <div>
-      <form name="contact" netlify>
+      <form name="contact" method="POST" data-netlify="true">
         <p>
           <label>
             Your Name: <input type="text" name="name" />
